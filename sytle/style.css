@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-fonts {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* shard style */
+  :root{
+    --dark1:#131313;
+    --dark2: #424242;
+    --dark3: #727272;
+  }
+  p{
+    color: var(--dark3);
+    font-size: 1rem;
+  }
+  .btn-primary{
+    background: #FF900E;
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    margin: 30px 0;
+  }
+ /* header area styling */
+
+ header{
+    background: rgba(255, 144, 14, 0.1);
+    
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    align-items: center;
+ }
+ nav .logo{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--dark1);
+ }
+ nav ul{
+    display: flex;
+    gap: 40px;
+ }
+ ul li {
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: var(--dark2);
+    }
+ }
+ .header-title{
+    max-width: 539px;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .header-title h1{
+    font-size: 3rem;
+    color: var(--dark1);
+    font-weight: 800;
+ }
+ .contant{
+    max-width: 950px;
+    margin: 50px auto;
+ }
+ .header-img img{
+    width: 100%;
+ }
